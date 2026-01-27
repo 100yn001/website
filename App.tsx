@@ -4,7 +4,7 @@ import { About } from './components/About';
 import { Navbar } from './components/Navbar';
 
 export default function App() {
-  const [activeTab, setActiveTab] = useState<'home' | 'about'>('home');
+  const [activeTab, setActiveTab] = useState<'home' | 'info'>('home');
 
   return (
     <div className="min-h-screen w-full bg-black text-white font-['EB_Garamond'] selection:bg-red-900 selection:text-white overflow-hidden">
